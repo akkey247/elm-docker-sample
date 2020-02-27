@@ -1,0 +1,5 @@
+app/.cache
+app/dist
+app/elm-stuff
+app/node_modules
+package-lock.json
