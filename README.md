@@ -4,18 +4,12 @@ ElmをDockerで動かすサンプル。
 
 # 使い方
 
-1. インストール
+1. インストール & 起動
 
 ```bash
-$ docker-compose run --rm node npm install
+$ docker-compose up -d
 ```
 
-2. 起動
-
-```bash
-$ docker container exec -it node npm start
-```
-
-3. アクセス
+2. アクセス
 
 http://localhost:3000/
